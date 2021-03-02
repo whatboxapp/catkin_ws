@@ -1,0 +1,21 @@
+obstacle_range: 2.5         ###### 原始2.5
+raytrace_range: 3.0        ####### 原始3.0
+footprint: [[0.175, 0.175], [0.175, -0.175], [-0.175, -0.175], [-0.175, 0.175]]
+footprint_inflation: 0.01   ######原始0.01
+robot_radius: 0.175
+inflation_radius: 0.4         ####原始0.15
+max_obstacle_height: 0.6
+min_obstacle_height: 0.0
+observation_sources: scan
+scan: {data_type: LaserScan, topic: /scan, marking: true, clearing: true, expected_update_rate: 0}
+
+#####################################################3
+
+
+#################################################################################
+#1. obstacle_range：决定了多远的距离以内被当成是障碍显示在local costmap里面
+#2. footprint: 通过设置坐标来决定了你小车的形状，也可以设置radius，小车就是圆形。
+#3. inflation_radius：costmap的膨胀半径~很重要~
+#4. observation_sources：用来设置你输入的障碍物检测方法：可以是激光和点云
+#5. max_obstacle_height: , min_obstacle_height: ，障碍物的高度范围，我就是这个范围设的太小开始local map并没有显示出来。
+################################################################################

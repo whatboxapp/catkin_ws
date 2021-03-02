@@ -1,0 +1,45 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/lj/catkin_ws/devel/include/**",
+                "/home/lj/daohang/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/lj/daohang/src/amcl_lj/include/**",
+                "/home/lj/catkin_ws/src/costmap_prohibition_layer/include/**",
+                "/home/lj/daohang/src/dwa_local_planner/include/**",
+                "/home/lj/catkin_ws/src/dynamic_obstacle_avoidance_planner/include/**",
+                "/home/lj/daohang/src/dynamicvoronoi/include/**",
+                "/home/lj/catkin_ws/src/euclidean_cluster/include/**",
+                "/home/lj/catkin_ws/src/getlaser/include/**",
+                "/home/lj/catkin_ws/src/scan_tools/laser_ortho_projector/include/**",
+                "/home/lj/catkin_ws/src/scan_tools/laser_scan_matcher/include/**",
+                "/home/lj/catkin_ws/src/scan_tools/laser_scan_sparsifier/include/**",
+                "/home/lj/catkin_ws/src/scan_tools/laser_scan_splitter/include/**",
+                "/home/lj/daohang/src/mbot_bringup/include/**",
+                "/home/lj/catkin_ws/src/mypublisher/include/**",
+                "/home/lj/catkin_ws/src/scan_tools/ncd_parser/include/**",
+                "/home/lj/catkin_ws/src/obstacle_detector/include/**",
+                "/home/lj/daohang/src/path_smoothing_ros/include/**",
+                "/home/lj/catkin_ws/src/scan_tools/polar_scan_matcher/include/**",
+                "/home/lj/catkin_ws/src/scan_tools/scan_to_cloud_converter/include/**",
+                "/home/lj/catkin_ws/src/simple_layers/include/**",
+                "/home/lj/daohang/src/teb_local_planner/include/**",
+                "/home/lj/daohang/src/transfer_map/include/**",
+                "/home/lj/catkin_ws/src/virtual_obstacles/include/**",
+                "/home/lj/daohang/src/voronoi_planner/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
